@@ -1,0 +1,70 @@
+.drawler{
+    background-color: #171717;
+    width: 13vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    margin-top: 2vh;
+}
+
+.logo img{
+    max-width: 11vw;
+}
+
+.input-group{
+    width: 90%;
+    margin-top: 30px;
+}
+
+.btn-group-vertical{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-secondary{
+    background: #171717;
+    width: 100vw;
+    display: flex;
+    align-items: center;      
+    border: none;
+}
+
+main{
+    margin-left: 13vw;
+}
+
+.modalUploadHidden{
+    visibility: hidden;
+    z-index: 0;
+    display: none;
+}
+
+.modalUpload{
+    background: #2424249d;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    display: flex;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalUploadContent{
+    width: 30%;
+    height: 30%;
+    background: #ebe7e7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 0 2%;
+}
